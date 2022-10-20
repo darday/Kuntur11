@@ -206,42 +206,10 @@
         
       </div>
       <div class="row">
-        <div class="col-lg-6">
-          <div id="carouselExampleIndicators" data-interval="false" class="carousel slide animated fadeInUp "  style="width: auto%; height350pxo" data-ride="carousel" data-pause="false">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <!-- Slide One - Set the background image for this slide in the line below -->
-              <div class="carousel-item active" style="background-image: url('img/carousel/PORTADA-BANNER3.jpg'); height:200px;  border-radius: 25px">
-                
-              </div>
-              <!-- Slide Two - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('img/carousel/PORTADA-BANNER2.jpg'); height:200px; border-radius: 25px">
-                <div class="carousel-caption d-none d-md-block">
-                  <!--<h2 class="display-4">Fundación Arte Nativo</h2>
-                  <p class="lead text-center">This is a description for the second slide.</p>-->
-                </div>
-              </div>
-              <!-- Slide Three - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('img/carousel/PORTADA-BANNER4.jpg'); height:200px;border-radius: 25px">
-                <div class="carousel-caption d-none d-md-block">
-                  <!--<h2 class="display-4">Fundación Arte Nativo</h2>
-                  <p class="lead text-center">This is a description for the third slide.</p>-->
-                </div>
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-          </div>
+        <div class="col-lg-6 text-center">
+          <img src="img/varias/img.gif" style="text-align:center" width="55%" alt="" class="zoom">
+
+          
         </div>
         <div class="col-lg-6 index-pp">
           
@@ -580,7 +548,40 @@
 
             </div>
         </div>
-      </div>
+
+        <!-- <div id="carouselExampleIndicators" data-interval="false" class="carousel slide animated fadeInUp "  style="width: auto%; height350pxo" data-ride="carousel" data-pause="false">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active" style="background-image: url('img/carousel/PORTADA-BANNER3.jpg'); height:200px;  border-radius: 25px">
+                
+              </div>
+              <div class="carousel-item" style="background-image: url('img/carousel/PORTADA-BANNER2.jpg'); height:200px; border-radius: 25px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Fundación Arte Nativo</h2>
+                  <p class="lead text-center">This is a description for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" style="background-image: url('img/carousel/PORTADA-BANNER4.jpg'); height:200px;border-radius: 25px">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 class="display-4">Fundación Arte Nativo</h2>
+                  <p class="lead text-center">This is a description for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+          </div>
+        </div> -->
         @include('components/footer')
 
 
