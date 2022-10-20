@@ -22,6 +22,11 @@ class FestivalController extends Controller
         return view('festival-kuntur');
     }
 
+    public function el_festival()
+    {
+        return view('el-festival');
+    }
+
     public function index()
     {
         return view('bases');

@@ -149,7 +149,7 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
           <div class="carousel-inner" style="" >
-            <div class="carousel-item active" data-bs-interval="4000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  ">
+            <div class="carousel-item active" data-bs-interval="5000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  ">
                <!-- <div style="background-color:rgba(43, 39, 39, 0.397) ; width:auto%; height350pxp" > 250px </div>  -->
                     
             </div>
@@ -186,27 +186,28 @@
           {{-- <hr style="height:1px;border:none;color:#f8b21e;background-color:#f8b21e; " /> --}}
         {{-- </div>  --}}
    
-    <div class="container "  style=" text-align:center; margin-top:5vh">
-        <br/>
-        
-            <h3></i>DESCARGA AQUÍ MÁS INFORMACIÓN</h3>
-            <a href="docs/FICHA2021.pdf" download="Ficha_Inscripcion_2021">
-                <button type="button" class="btn btn-outline-dark btn-lg"><b>FICHA DE INSCRIPCIÓN 2021</b></button>
-            </a>
-            <a href="docs/BASES2021.pdf" download="Bases_Festival_2021">
-                <button type="button" class="btn btn-outline-dark btn-lg"><b>BASES DEL FESTIVAL 2021</b></button>
-            </a>
-        </div>
-    <br>
-    <br/>
+    <!-- <div class="container "  style=" text-align:center; margin-top:5vh">
+      <br/>
+        <h3></i>DESCARGA AQUÍ MÁS INFORMACIÓN</h3>
+        <a href="docs/FICHA2021.pdf" download="Ficha_Inscripcion_2021">
+            <button type="button" class="btn btn-outline-dark btn-lg"><b>FICHA DE INSCRIPCIÓN 2021</b></button>
+        </a>
+        <a href="docs/BASES2021.pdf" download="Bases_Festival_2021">
+            <button type="button" class="btn btn-outline-dark btn-lg"><b>BASES DEL FESTIVAL 2021</b></button>
+        </a>
+      </div> -->
     
-    <div class="container" style=" padding:8vh;border-radius: 25px">
+    <div class="container" style=" ">
+      <br>
+      <br>
       <div class="text-center">
-        <h3>FESTIVAL DE CINE ECUATORIANO KUNTURÑAWI</h3>
+        <h1 class="titulo">La cinefilia desde el centro del país</h1>
+        <br>
+        
       </div>
       <div class="row">
         <div class="col-lg-6">
-          <div id="carouselExampleIndicators" class="carousel slide animated fadeInUp "  style="width: auto%; height350pxo" data-ride="carousel" data-pause="false">
+          <div id="carouselExampleIndicators" data-interval="false" class="carousel slide animated fadeInUp "  style="width: auto%; height350pxo" data-ride="carousel" data-pause="false">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -242,7 +243,7 @@
                 </a>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 index-pp">
           
           <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-left:; ">
             <p>Kunturñawi viene del idioma nativo kichwa significa: Kuntur=Cóndor y Ñawi=ojo; se crea en noviembre del 2006, ante la necesidad de difundir las obras 
@@ -263,19 +264,13 @@
             
               
     </div>
-
+            
     <br>
-    <br>
-    <br>
-    <br>
-
-    
-
-    <!-- <div class="container container2" style="margin-top: 10vh;">
-      <h1 class="titulo" style="text-align: left" >Selección oficial 2021</h1>
+    <div class="container container2" style="margin-top: 0vh;">
+      <h1 class="titulo" style="text-align: center" >Películas en competencia</h1>
       <br>
     </div>
-        <div class="Carousel" style=" margin-bottom:10vh; background-color:red; padding:10vh">
+        <div class="Carousel" style=" margin-bottom:10vh; padding:0vh">
             <div class="slick-list" id="slick-list">
                 <button class="slick-arrow slick-prev" id="button-prev">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
@@ -298,77 +293,77 @@
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
                 </button>
             </div>
-        </div> -->
+        </div>
 
 
         <div class="container " >
-{{-- 
-            <h1 class="titulo"  >EL FESTIVAL</h1>
-            <hr style="height:5px;border:none;color:#f8b21e;background-color:#f8b21e; margin-top:-1vh" />
+
+          <!-- <h1 class="titulo"  >EL FESTIVAL</h1>
+          <hr style="height:5px;border:none;color:#f8b21e;background-color:#f8b21e; margin-top:-1vh" />
 
 
 
-            <!--<div class="text-center" style="margin-top: 0vh; margin-left:-3%; margin-right:-3%">
-                <div class="card " style="height:80px">
-                    <div class="card-body text-center row" style="background-color:#f8b21e">
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left" style="margin-top: -10px">
-                            <h1 class="titulo" style="font-family:calibri !important" ><b>EL FESTIVAL</b></h1>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right" style="margin-bottom: -20px; margin-top:-20px">
-                            <a href="https://www.facebook.com/KunturnawiCine"><img src="../img/logos/face.png" width="85px" alt=""></a>
-                            <a href="https://www.instagram.com/kunturnawi/?hl=es-la"><img src="../img/logos/insta.webp" width="70px" alt=""></a>
-                            <a href="https://www.youtube.com/channel/UCplMYDazTGjVJNxukH17EzA"><img src="../img/logos/youtube.webp" width="55px" alt=""></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>-->
-
-            <div class="text-center" style="margin-bottom: 5vh; margin-top:5vh;">
-                <div class="card-group " >
-                    <div class="card border-0" style="align-items: center; ">
-                      <img  class="" style="margin-top:3vh" src="img/logos/ICONO-FESTIVAL.png" width="100px" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Kunturñawi</h5>
-
+          <div class="text-center" style="margin-top: 0vh; margin-left:-3%; margin-right:-3%">
+              <div class="card " style="height:80px">
+                  <div class="card-body text-center row" style="background-color:#f8b21e">
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left" style="margin-top: -10px">
+                          <h1 class="titulo" style="font-family:calibri !important" ><b>EL FESTIVAL</b></h1>
                       </div>
-                    </div>
-                    <div class="card border-0" style="align-items: center; ">
-                      <img  class="" style="margin-top:3vh" src="img/logos/CLAQUETA-ICONO.png" width="100px" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">+auto Films Pr350pxtados</h5>
-
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right" style="margin-bottom: -20px; margin-top:-20px">
+                          <a href="https://www.facebook.com/KunturnawiCine"><img src="../img/logos/face.png" width="85px" alt=""></a>
+                          <a href="https://www.instagram.com/kunturnawi/?hl=es-la"><img src="../img/logos/insta.webp" width="70px" alt=""></a>
+                          <a href="https://www.youtube.com/channel/UCplMYDazTGjVJNxukH17EzA"><img src="../img/logos/youtube.webp" width="55px" alt=""></a>
                       </div>
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="text-center" style="margin-bottom: 5vh; margin-top:5vh;">
+              <div class="card-group " >
+                  <div class="card border-0" style="align-items: center; ">
+                    <img  class="" style="margin-top:3vh" src="img/logos/ICONO-FESTIVAL.png" width="100px" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Kunturñawi</h5>
+
                     </div>
-                    <div class="card border-0" style="align-items: center; ">
-                      <img  class="rounded-circle" style="margin-top:3vh" src="img/logos/ICONO-UBICACION.png" width="100px"  alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">4 Provincias</h5>
+                  </div>
+                  <div class="card border-0" style="align-items: center; ">
+                    <img  class="" style="margin-top:3vh" src="img/logos/CLAQUETA-ICONO.png" width="100px" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">+auto Films Pr350pxtados</h5>
 
-                      </div>
                     </div>
-                    <div class="card border-0" style="align-items: center; ">
-                      <img  class="rounded-circle" style="margin-top:3vh" src="img/logos/8-ICONO.png" width="100px" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Organizador</h5>
+                  </div>
+                  <div class="card border-0" style="align-items: center; ">
+                    <img  class="rounded-circle" style="margin-top:3vh" src="img/logos/ICONO-UBICACION.png" width="100px"  alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">4 Provincias</h5>
 
-                      </div>
                     </div>
+                  </div>
+                  <div class="card border-0" style="align-items: center; ">
+                    <img  class="rounded-circle" style="margin-top:3vh" src="img/logos/8-ICONO.png" width="100px" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Organizador</h5>
+
+                    </div>
+                  </div>
 
 
 
-                </div>
+              </div>
 
-            </div> --}}
+          </div>  -->
 
-            <!--**************ENCUENTRANOS EN*********************-->
+          <!--**************ENCUENTRANOS EN*********************-->
          
             
             
             
-           
-            {{-- <hr style="height:1px;border:none;color:#f8b21e;background-color:#f8b21e; " /> --}}
-            {{-- <hr style="height:5px;border:none;color:#f8b21e;background-color:#f8b21e; margin-top:-1vh" /> --}}
+          
+          {{-- <hr style="height:1px;border:none;color:#f8b21e;background-color:#f8b21e; " /> --}}
+          {{-- <hr style="height:5px;border:none;color:#f8b21e;background-color:#f8b21e; margin-top:-1vh" /> --}}
 
 
 
@@ -376,216 +371,214 @@
 
 
             <!--*********************Noticias***************************-->
-                <div class="row " style="background-color: rgb(252, 230, 230);padding:8vh;padding-top:2vh;border-radius: 25px">
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-left" style="">
-                      <h1 class="titulo">Últimas Noticias</h1>
-                    </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-right" style="margin-bottom: -20px; margin-top:">
-                      <a href="{{ url('/noticias') }} " style="text-decoration: none;"><h5 style="padding-top:2.5vh; ">Ver todas las noticias</h5></a> 
-                    </div>
-                            
 
-                  <div class="col-lg-6" style="padding-top: 5vh;padding-bottom:3vh">
-                     @foreach($last as $last)
+            <h1 class="titulo" style="text-align: center" >Noticias del Festival</h1>
+            <div class="row " style="padding:8vh;padding-top:2vh;border-radius: 25px">
+              <div class="col-lg-6" style="padding-top: 0vh;padding-bottom:3vh">
+                  @foreach($last as $last)
 
-                    <div class=" text-center" style="">
-                        <div id="mainwrapper">
-                            <div class="card" style="width:100%;height: auto; ">
-                                    <a href="{{url('/noticia/'.$last->id)}}" >
-                                    <img src="{{ asset('storage/app/public').'/'. $last->Not_imagen}}" class="card-img-top" style="width: 100%; height: auto;" alt="...">
-                                </a>
-                                <div class="card-body">
-                                  <h5 class="card-title text-center"><b><strong>{{$last->Not_Titulo}}</strong></b></h5>
-                                  <p class="card-text ellipsis text-center">{{$last->Not_Descripcion}}</p>
-                                  <a href="{{url('/noticia/'.$last->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
-                                </div>
-                              </div>
-                        </div>
-                    </div>
-
-
-                    @endforeach
-                  </div>
-
-                  <div class="col-lg-6" style="width:100%;height: auto; ">
-                    @foreach($noticias2 as $noticias)
-                          <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <a href="{{url('/noticia/'.$noticias->id)}}" >
-                                  <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="img-fluid rounded-start" style="width: auto%; height350pxto;" alt="...">
-
-                              </a>
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h5 class="card-title text-left"><b><strong>{{$noticias->Not_Titulo}}</strong></b></h5>
-                                  <p class="card-text ellipsis TE">{{$noticias->Not_Descripcion}}</p>
-                                  <a href="{{url('/noticia/'.$noticias->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
-                                </div>
-                              </div>
+                <div class=" text-center" style="">
+                    <div id="mainwrapper">
+                        <div class="card" style="width:100%;height: auto; ">
+                                <a href="{{url('/noticia/'.$last->id)}}" >
+                                <img src="{{ asset('storage/app/public').'/'. $last->Not_imagen}}" class="card-img-top" style="width: 100%; height: auto;" alt="...">
+                            </a>
+                            <div class="card-body">
+                              <h5 class="card-title text-center"><b><strong>{{$last->Not_Titulo}}</strong></b></h5>
+                              <p class="card-text ellipsis text-center">{{$last->Not_Descripcion}}</p>
+                              <a href="{{url('/noticia/'.$last->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
                             </div>
                           </div>
+                    </div>
+                </div>
 
-                      
+
+                @endforeach
+              </div>
+
+              <div class="col-lg-6" style="width:100%;height: auto; ">
+                @foreach($noticias2 as $noticias)
+                      <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <a href="{{url('/noticia/'.$noticias->id)}}" >
+                              <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="img-fluid rounded-start" style="width: auto%; height350pxto;" alt="...">
+
+                          </a>
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-left"><b><strong>{{$noticias->Not_Titulo}}</strong></b></h5>
+                              <p class="card-text ellipsis TE">{{$noticias->Not_Descripcion}}</p>
+                              <a href="{{url('/noticia/'.$noticias->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                @endforeach
+                <div class="row">       </div>
+              </div>
+
+              {{-- @foreach($noticias as $noticias)
+
+              <br>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-left" style="padding-top: 20px">
+                <div id="mainwrapper">
+                  <div class="card" style="width: auto%; height350pxto; ">
+                    <a href="{{url('/noticia/'.$noticias->id)}}" >
+                        <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="card-img-top" style="width: auto%; height350pxto;" alt="...">
+                    </a>
+
+                    <div class="card-body">
+                      <h7 class="card-title text-left"><b><strong>{{$noticias->Not_Titulo}}</strong></b></h7>
+                      <p class="card-text ellipsis TE">{{$noticias->Not_Descripcion}}</p>
+                      <a href="{{url('/noticia/'.$noticias->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              @endforeach --}}
+                    <!--------------------------------------------------------->
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="margin-bottom: -20px; margin-top:">
+                <a href="{{ url('/noticias') }} " style="text-decoration: none;"><h5 style="padding-top:2.5vh; ">Ver todas las noticias</h5></a> 
+              </div>
+            </div>
 
 
-                    @endforeach
-                    <div class="row">       </div>
+
+            
+            
+            
+
+           
+
+                
+                <!-- ------------fin de jurtado calificador-------------- -->
+
+           
+
+            <div class="row " style="margin-bottom: 10vh;padding-top:10vh ">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
+                    <h1 class="titulo">Auspiciantes del festival</h1><br><br>
+                </div>
+
+                <div class="container">
+                  <img src="img/logos/LOGOS.png" width="100%" alt="" class="zoom">
+                </div
+
+
+                <!-- <div class="col-12 col-sm-12 col-md-12 col-xl-12">  
+                      <!-- <img src="img/logos/auspiciantes.jpg" class="responsive">  -->
+
+                    <!-- <div class="slider">
+                      <div class="slide-track">
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
+                          </div>
+                          <div class="slide">
+                              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
+                          </div>
+                      </div>
+                  </div> -->
+
                     
-                  </div>
+                <!-- </div>  -->
 
-                    {{-- @foreach($noticias as $noticias)
+                <br>
+                <br>
+                <!-- <div class="col-12 col-sm-12 col-md-12 col-xl-12">
+                  {{-- <img src="img/logos/auspiciantes.jpg" class="responsive"> --}}
 
-                        <br>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-left" style="padding-top: 20px">
-                        <div id="mainwrapper">
-                            <div class="card" style="width: auto%; height350pxto; ">
-                                <a href="{{url('/noticia/'.$noticias->id)}}" >
-                                    <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="card-img-top" style="width: auto%; height350pxto;" alt="...">
-
-                                </a>
-
-                                <div class="card-body">
-                                  <h7 class="card-title text-left"><b><strong>{{$noticias->Not_Titulo}}</strong></b></h7>
-                                  <p class="card-text ellipsis TE">{{$noticias->Not_Descripcion}}</p>
-                                  <a href="{{url('/noticia/'.$noticias->id)}}" class="btn btn-warning" style="background-color: #f8b21e">Leer más</a>
-                                </div>
-                              </div>
+                  <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
                         </div>
                     </div>
+                </div> -->
 
-
-                    @endforeach --}}
-                        <!--------------------------------------------------------->
-                </div>
-
-                <div class="row " style="margin-bottom: 10vh;padding-top:10vh ">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
-                        <h1 class="titulo">Auspiciantes</h1><br><br>
-                    </div>
-
-                    <div class="container">
-                      <img src="img/logos/LOGOS.png" width="100%" alt="" class="zoom">
-                    </div
-
-
-                   <!-- <div class="col-12 col-sm-12 col-md-12 col-xl-12">  
-                         <!-- <img src="img/logos/auspiciantes.jpg" class="responsive">  -->
-
-                        <!-- <div class="slider">
-                          <div class="slide-track">
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
-                              </div>
-                              <div class="slide">
-                                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
-                              </div>
-                          </div>
-                      </div> -->
-
-                        
-                    <!-- </div>  -->
-
-                    <br>
-                    <br>
-                    <!-- <div class="col-12 col-sm-12 col-md-12 col-xl-12">
-                      {{-- <img src="img/logos/auspiciantes.jpg" class="responsive"> --}}
-
-                      <div class="slider">
-                        <div class="slide-track">
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="auto" width="350px" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="auto" width="350px" alt="" />
-                            </div>
-                        </div>
-                    </div> -->
-
-                      
-                  </div>
+                  
+              </div>
 
 
 
 
-                </div>
-
-
-
-
+            </div>
         </div>
       </div>
         @include('components/footer')

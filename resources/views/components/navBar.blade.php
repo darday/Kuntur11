@@ -40,33 +40,45 @@
                         
                         </div>
                     </li> -->
-                    <li class="nav-item">
-                    <a class="nav-link menu navbar1" href="{{ url('/talleres') }}">Talleres</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Programación</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link menu navbar1" href="{{ url('/noticias') }}">Noticias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link menu navbar1" href="{{ url('/gallery') }}">Galeria</a>
-                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/el-festival') }}">El Festival</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/talleres') }}">Talleres</a>
+                    </li> -->
+
                     <li class="nav-item dropdown" id='dmenu'  >
                         <a class="nav-link dropdown-toggle  menu navbar1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           El Festival
                         </a>
                         <div class="dropdown-menu navbar1" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item menu navbar1" href="{{ url('/bases') }}">Bases</a>
-                          <a class="dropdown-item menu navbar1" href="{{ url('/equipo') }}">Equipo</a>
-                          <a class="dropdown-item menu navbar1" href="{{ url('/jurado') }}">Jurado</a>
+                          <a class="dropdown-item menu navbar1" href="{{ url('/el-festival') }}">Acerca del Festival</a>
+                          <a class="dropdown-item menu navbar1" href="{{ url('/jurado') }}">Jurado Calificador</a>
+                          <a class="dropdown-item menu navbar1" href="{{ url('/equipo') }}">Equipo Kunturñawi</a>
                         
                         </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link menu navbar1" href="{{ url('/premiacion') }}">Premiación X Festival</a>
+                        <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Programación</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Auspiciantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Ediciones Pasadas</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/noticias') }}">Noticias</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/gallery') }}">Galeria</a>
+                    </li>
+                    
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link menu navbar1" href="{{ url('/premiacion') }}">Premiación X Festival</a>
+                    </li> -->
 
                 </ul>
 

@@ -55,6 +55,7 @@ Route::get('/gallery', 'GaleriaController@index')->name('gallery');
 Route::get('/bases', 'FestivalController@index')->name('bases');
 Route::get('/equipo', 'FestivalController@equipo')->name('equipo');
 Route::get('/festival-kuntur', 'FestivalController@festival_kuntur')->name('festival-kuntur');
+Route::get('/el-festival', 'FestivalController@el_festival')->name('el_festival');
 Route::get('/jurado', 'JuradoController@index')->name('jurado');
 
 Route::get('/premiacion', 'NoticiaController@noticiaKuntur')->name('noticias');

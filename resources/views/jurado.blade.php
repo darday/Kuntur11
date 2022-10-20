@@ -121,6 +121,18 @@
         <div class="container container2">
             <br><br><br>
 
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
+              <h1 class="titulo">Jurado Calificador</h1><br><br>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <img src="img/jurado22/1.jpeg" class="card-img-top" alt="...">
+              </div>
+              <div class="col-6">
+                <img src="img/jurado22/2.jpeg" class="card-img-top" alt="...">
+              </div>
+            </div>
+
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
 
