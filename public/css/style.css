@@ -125,6 +125,21 @@ h1.titulo2{
     font-size: 1.5em;
 }
 
+h1.titulo22{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #4c4c65 !important;
+    letter-spacing: 0px !important;
+    font-size: 1.5em;
+    text-align: justify !important;
+}
+
+.negrita22{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    color: #4c4c65 !important;
+    font-size: 1em;
+    text-align: justify !important;
+}
+
 h3.pel{
     font-family: 'Roboto Condensed', sans-serif !important;
     color: white !important;

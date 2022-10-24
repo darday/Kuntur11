@@ -133,7 +133,16 @@
             
             <div class="row" style="padding-bottom: 2%">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <div class="espacioimg"><img src="img/jurado22/1.jpeg" class="card-img-top" alt="..."></div>
+                    {{-- <h1 class="titulo2" style="font-size: 2.0em"><b>Titulo posible</b></h1> --}}
+                    <h1 class="titulo22">2019/ 8va Edición, ganadores</h1>
+                    <p><b class="negrita22">Corto Universitario:</b> “Waka” de Karen Guazco<br>
+                        <b class="negrita22">Corto Animación:</b> Capuli<br>                                                         
+                        <b class="negrita22">Corto Documental:</b> “Vestimenta Sápara” de Yanda Montalhuano<br>                                       
+                        <b class="negrita22">Corto Ficción:</b> "Huaca" de Diego Ortuño<br>
+                        <b class="negrita22">Largo Documental:</b> “Cuando ellos se fueron" de Verónica Haro Abril.<br>
+                        <b class="negrita22">Largo Ficción:</b> "Azules Turquezas" de Mónica Mancero.<br>                                       
+                        <b class="negrita22">Premio del Público:</b> “La mala noche" de Gabriela Calvache.<br>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <div class="espacioimg"><img src="img/jurado22/2.jpeg" class="card-img-top" alt="..."></div> 
@@ -142,7 +151,15 @@
             
             <div class="row" style="padding-bottom: 2%">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <div class="espacioimg"><img src="img/jurado22/3.jpeg" class="card-img-top" alt="..."></div>
+                    <h1 class="titulo22">2020/ 9na Edición, ganadores</h1>
+                    <p><b class="negrita22">Corto Universitario:</b> “Siete ocho” dirigido por Bryan Torres, estudiante de INCINE.<br>
+                        <b class="negrita22">Corto Ficción:</b> “Dulce Espera” de la directora Paula Llerena<br>
+                        <b class="negrita22">Corto Animación:</b> “After Work” de Luis Usón y Andrés Aguilar.<br>                                                         
+                        <b class="negrita22">Corto Documental:</b> “Un año, una hora, un deseo” de Daniel Yépez Brito.<br>                                       
+                        <b class="negrita22">Largo Documental:</b> “Madre Luna”, de Daysi Burbano.<br>
+                        <b class="negrita22">Largo Ficción:</b> “Panamá”, de Javier Izquierdo. <br>                                       
+                        <b class="negrita22">Premio del Público:</b> “La Chica del Lago” de Jorge Bastidas.<br>
+                    </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <div class="espacioimg"><img src="img/jurado22/4.jpeg" class="card-img-top" alt="..."></div> 
@@ -151,11 +168,20 @@
 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <img src="img/jurado22/5.jpeg" class="card-img-top" alt="...">
+                    <h1 class="titulo22">2021/ 10ma Edición, ganadores</h1>
+                    <p><b class="negrita22">Mejor Actor:</b> Wolframio Sinue, por Sansón, de Pavel Quevedo.<br>
+                        <b class="negrita22">Mejor Actriz:</b> Nataly Valencia<br>                                       
+                        <b class="negrita22">Corto Documental:</b> “El Lunar En Su Espada” De Bernhard Hetzenauer y Pia Ilonka.<br>
+                        <b class="negrita22">Corto Ficción:</b> “Luna” de Jesahel Newton.<br>
+                        <b class="negrita22">Corto Animación:</b> “Entrañas” De Mayki Alvarado.<br>                                                         
+                        <b class="negrita22">Largo Ficción:</b> Sumergible De Alfredo León León.<br>                                       
+                        <b class="negrita22">Largo Documental:</b> “Airopai: Mi  Amigo Nelson” De Jacob Valladares Y Diana Molina.<br>
+                        <b class="negrita22">Premio del Público:</b> Gafas Amarillas Del Director Ivan Mora Manzano.<br>
+                    </p>
                 </div>
-                {{-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="img/jurado22/3.jpeg" class="card-img-top" alt="..."> 
-                </div> --}}
+                </div> 
             </div>
             <br>
             <br>
