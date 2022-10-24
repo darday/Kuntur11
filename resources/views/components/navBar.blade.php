@@ -63,10 +63,10 @@
                         <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Programación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Auspiciantes</a>
+                        <a class="nav-link menu navbar1" href="{{ url('/auspiciantes') }}">Auspiciantes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Ediciones Pasadas</a>
+                        <a class="nav-link menu navbar1" href="{{ url('/ediciones-pasadas') }}">Ediciones Pasadas</a>
                     </li>
                     <!-- <li class="nav-item">
                         <a class="nav-link menu navbar1" href="{{ url('/noticias') }}">Noticias</a>

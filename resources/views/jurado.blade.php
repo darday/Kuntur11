@@ -119,9 +119,11 @@
           @include('components/redessociales')
 
         <div class="container container2">
-            <br><br><br>
+            <br>
+            <br>
+            <br>
 
-            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
+            {{-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
               <h1 class="titulo">Jurado Calificador</h1><br><br>
             </div>
             <div class="row">
@@ -131,40 +133,44 @@
               <div class="col-6">
                 <img src="img/jurado22/2.jpeg" class="card-img-top" alt="...">
               </div>
-            </div>
+            </div> --}}
 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
-
-                    <h1  class="titulo" >JURADO 2020</h1 >
+                    <h1  class="titulo" style="color:#4c4c65 !important">JURADO CALIFICADOR 2022</h1 >
                     <br><br>
                 </div>
             </div>
             
             
-            <div class="row">
+            <div class="row" style="padding-bottom: 2%">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <h1  class="titulo2" style="font-size: 2.5rem" >Cristobal D'Onofrio</h1 >
-                        <hr style="height:1px !important"  color="#636b6f">
-                        <h4>JURADO DE LARGOMETRAJES</h4>
-                        <p style="font-size: 1.1rem"> 
-                        Máster en dirección y producción audiovisual por la Universidad de Kingston, es director y
-                        productor audiovisual. Inició su carrera en el mundo del cine publicitario. Formó parte del
-                        equipo de producción de varios proyectos internacionales rodados en el Ecuador.
-                        En 2014 formó parte del Jurado Joven en la 42 edición del Festival Internacional de Cine de
-                        Huesca, España. Ha producido y dirigido contenidos para medios digitales y tradicionales.
-                        Actualmente forma parte del equipo de la Unidad de Control Técnico de la Dirección de
-                        Fomento al Cine y Audiovisual del Instituto de Fomento a la Creatividad y la Innovación IFCI.
-                        </p>
-
+                    <div class="espacioimg"><img src="img/jurado22/1.jpeg" class="card-img-top" alt="..."></div>
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <img src="../img/jurado/cristobal.jpg" class="responsive" alt="Responsive image">
+                    <div class="espacioimg"><img src="img/jurado22/2.jpeg" class="card-img-top" alt="..."></div> 
                 </div>
             </div>
             
-            <br>
+            <div class="row" style="padding-bottom: 2%">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
+                    <div class="espacioimg"><img src="img/jurado22/3.jpeg" class="card-img-top" alt="..."></div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
+                    <div class="espacioimg"><img src="img/jurado22/4.jpeg" class="card-img-top" alt="..."></div> 
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
+                    <img src="img/jurado22/5.jpeg" class="card-img-top" alt="...">
+                </div>
+                {{-- <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
+                    <img src="img/jurado22/3.jpeg" class="card-img-top" alt="..."> 
+                </div> --}}
+            </div>
+            
+            {{-- <br>
             <br>
             <br>
             <br>
@@ -172,9 +178,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/jurado/dennis.jpeg" class="responsive" alt="Responsive image">
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-
                     <h1  class="titulo2" style="font-size: 2.5rem" >Denis Daniilidis</h1 >
                     <hr style="height:1px !important"  color="#636b6f">
                     <h4>JURADO DE LARGOMETRAJES </h4>
@@ -213,46 +217,33 @@
                             Ha participado en festivales, muestras, conversatorios a nivel nacional e internacional. Ha sido acreedora del Premio “Mushuk Nina” 
                             por el aporte a los pueblos y nacionalidades con el arte audiovisual. 2017, de la Administración Zonal la Delicia por el aporte al 
                             desarrollo de la Cultura. 2017. Y en el festival Kikinyari el premio al mejor cortometraje experimental 2015. 
-                            
-
                         </p>
-
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/jurado/Rocio.jpg" class="responsive" alt="Responsive image">
                 </div>
             </div>
 
-
-
-
-
-<BR>
-<BR>
-<BR>
-<BR>
-
+            <BR>
+            <BR>
+            <BR>
+            <BR>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/jurado/elsa.jpeg" class="responsive" alt="Responsive image">
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-
                     <h1  class="titulo2" style="font-size: 2.5rem" >Elsa Cortez</h1 >
                     <hr style="height:1px !important"  color="#636b6f">
                     <h4>JURADO DE CORTOS UNIVERSITARIOS</h4>
                     <p style="font-size: 1.1rem">Comunicadora, docente y gestora cultural, desde 2010 estoy dedicada a la formación y promoción de las artes y la cultura en los jóvenes a través de la producción de proyectos como Festival Intercolegial de Cine y la Bienal de Arte Urbano "Cartografías paganas", y de la tutoría de proyectos culturales universitarios</p>
-
                 </div>
-
-
             </div>
 
-            <br><br>
-            <br><br>
-
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <h1  class="titulo2" style="font-size: 2.5rem" >Marcela Camacho Pardo</h1 >
@@ -264,30 +255,21 @@
                             coordinación de noticias en canales nacionales como Ecuavisa y Teleamazonas. Presidenta de ADEC Asociación de Documentalistas del Ecuador, miembra de
                             la Colectiva Mujeres Acción CAM, directora de GESTIONARTES ECUADOR y Community Manager.
                         </p>
-
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/jurado/camacho.jpg" class="responsive" alt="Responsive image">
-
-
                 </div>
-
-
             </div>
 
-
-            <br><br><br>
-
-           
-
+            <br>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/jurado/diegogui.jpeg" class="responsive" alt="Responsive image">
                 </div>
-
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-
                     <h1  class="titulo2" style="font-size: 2.5rem" >Diego Vallejo</h1 >
                     <hr style="height:1px !important"  color="#636b6f">
                     <h4>JURADO DE CORTOS UNIVERSITARIOS</h4>
@@ -298,15 +280,13 @@
                         rescata los valores, tradiciones y personajes de la Sultana de los Andes. En el ámbito creativo y audiovisual ha escrito cuentos, una novela y también ha dirigido
                         videoclips, cortometrajes y obras de teatro.
                     </p>
-
                 </div>
-
-
             </div>
             
-            <br><br>
-            <br><br>
-
+            <br>
+            <br>
+            <br>
+            <br>
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <h1  class="titulo2" style="font-size: 2.5rem" >Carlos Villavicencio</h1 >
@@ -315,38 +295,22 @@
                         <p style="font-size: 1.1rem"> Graduado del instituto de Cine, 2014  (INCINE). Licenciado de crítica de cine y teatro, diploma obtenido en la Academia de Artes
                         Teatrales de Moscú, 2020 (GITIS)
                         </p>
-
                 </div>
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <img src="../img/equipo/carlos.jpg" class="responsive" alt="Responsive image">
-
-
                 </div>
-
-
-            </div>
+            </div> --}}          
             
-            
-            <br><br>
-            <br><br>
-
-            
-
-
+            <br>
+            <br>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
+        
         @include('components/footer')
-
-
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-    </body>
     </body>
 </html>

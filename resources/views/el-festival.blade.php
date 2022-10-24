@@ -157,16 +157,14 @@
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
                         <br>
                         <br>
-                        <p>Kunturñawi viene del idioma nativo kichwa significa: Kuntur=Cóndor y Ñawi=ojo; se crea en noviembre del 2006, ante la necesidad de difundir las obras 
-                        cinematográficas y audiovisuales que se produce en Ecuador. La pandemia del Covid-19, no ha desfallecido nuestro ímpetu por seguir haciendo realidad 
-                        descentralización del cine, abriendo espacios para su difusión, valoración de obras y autores, inspirar la formación de públicos en la región del centro del país: 
-                        estudiantes de nivel medio y superior, comunidades indígenas, mercados y sectores vulnerables que no tienen acceso al cine como es su derecho. </p>
+                        <p>Kunturñawi, es una apuesta al cine ecuatoriano, su descentralización hacia el centro del país: 
+                          ciudades y comunidades indigenas, para accedan a las películas como un derecho y la formación de 
+                          públicos menos favorecidos. A lo largo de estas diez ediciones se ha constituído en la ventada de 
+                          difusión de 417 films a una audiencia de mas de cien mil ciudadanos urbanos y rurales.</p>
             
-                        <p>El Kunturñawi, es un festival de competencia en las categorías: largometraje documental y ficción, y cortometrajes: ficción, animación y documental; y la categoría cortos universitarios.  
-                        La décima edición por segundo año será presencial y Online y recorrerá las provincias de Bolívar, Tungurahua, Pastaza, Cotopaxi y Chimborazo, cómo única 
-                        ventana de acceder al cine de Ecuador.</p>
-                        <p>Paralelamente el Festival desarrolla actividades de formación cinematográfica, vinculando a las universidades de Cine: INCINE, UARTES, UDLA, con comunidades indígenas, para fortalecer al cine como una potencial herramienta para la revitalizar la memoria social, identidad, sensibilizarnos sobre nuestras realidades, fortalecer la estima y visionar mejores amaneceres. El Festival atiende las demandas sobre el acceso a la cultura y la legitimidad de los derechos culturales para ciudadanas/os.</p>
-                        <p>Son quince años que se han proyectado mas de 300 películas ecuatorianas de calidad, con temáticas diversas, como así es el país, con la particularidad de contar con la participación en los foros de los directores, realizadores y actores que han contrastado con el publico sus obras.</p>
+                        <p>Estamos en la vigésimo primera edición y la miradas son diversas en 37 obras cinematográficas que 
+                          serán expuestas del 5 al 12 de noviembre del 2022 en las Provincias de Chimborazo, Cotopaxi, Tungurahua
+                          y Bolívar.</p>
                         
                     </div>
 
@@ -174,13 +172,13 @@
            
 
 
-                 <div style="text-align: left; padding-top:30px; padding-bottom:20px ">
+                <div style="text-align: left; padding-top:30px">
 
-                    <a href="{{ url('/noticias') }}">
+                    {{-- <a href="{{ url('/noticias') }}">
                         <button type="button" class="btn btn-outline-dark">
                             {{ __('VOLVER A NOTICIAS') }}
                         </button>
-                    </a>
+                    </a> --}}
                 </div>
 
 

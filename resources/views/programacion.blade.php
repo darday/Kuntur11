@@ -110,7 +110,7 @@
         @include('components/redessociales')
 
         <div class="container "  style=" text-align:center; margin-top:9vh">
-            <a href="docs/agenda2020.pdf" download="Agenda_2020">
+            <a href="docs/agenda2022.pdf" download="Agenda_2022">
                 <button type="button" class="btn btn-outline-dark btn-lg"><b>DESCARGAR PROGRAMACIÓN</b></button>
             </a>
         </div>
@@ -158,7 +158,7 @@
 
 
             <div class="div" style="margin-top:5vh; margin-bottom:7vh">
-                <h1 class="titulo" style="text-align: center">AGENDA 2020</h1>
+                <h1 class="titulo" style="text-align: center; color:#4c4c65 !important">AGENDA 2022</h1>
             </div>
 
             <div id="accordion" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">

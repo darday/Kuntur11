@@ -4,6 +4,8 @@ use App\Film;
 use Illuminate\Support\Facades\Route;
 use App\User;
 use App\Calificacion;
+use App\Http\Controllers\AuspiciantesController;
+use App\Http\Controllers\EdicionespasadasController;
 use App\permisos\Models\Role;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
@@ -59,6 +61,10 @@ Route::get('/el-festival', 'FestivalController@el_festival')->name('el_festival'
 Route::get('/jurado', 'JuradoController@index')->name('jurado');
 
 Route::get('/premiacion', 'NoticiaController@noticiaKuntur')->name('noticias');
+
+Route::get('/auspiciantes', 'AuspiciantesController@index')->name('auspiciantes');
+
+Route::get('/ediciones-pasadas', 'EdicionespasadasController@index')->name('ediciones-pasadas');
 
 
 

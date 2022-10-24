@@ -82,7 +82,9 @@ a.menu{
 
 h1.titulo{
     font-family: calibri  !important;
-    color: #4c4c65 !important;
+    /* color: #4c4c65 !important; */
+    color: white !important;
+
     font-weight: bold;
 
 
@@ -883,4 +885,12 @@ p.tit-sob-img2 {
   .bounceInLeft {
     -webkit-animation-name: bounceInLeft;
     animation-name: bounceInLeft;
+  }
+
+  /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Espaciar imagenes >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+  
+  @media (max-width: 767px){
+    .espacioimg{
+      padding-bottom: 4%;
+    }
   }

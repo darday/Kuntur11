@@ -105,8 +105,8 @@
 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
 
-                    <h1  class="titulo" >EQUIPO 2020</h1 >
-                    <hr style="height:1px !important"  color="#636b6f">
+                    <h1  class="titulo" style="color:#4c4c65 !important">EQUIPO 2022</h1 >
+                    <hr style="height:1px !important"  color="#4c4c65">
                     <br><br>
                 </div>
             </div>

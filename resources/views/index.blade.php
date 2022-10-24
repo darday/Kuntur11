@@ -127,7 +127,7 @@
 
 
     </head>
-    <body class="animated fadeIn">
+    <body class="animated fadeIn"  style="    background-size: cover; background-image: url('img/varias/fondo2.png') ;  ">
 
 
 
@@ -201,7 +201,7 @@
       <br>
       <br>
       <div class="text-center">
-        <h1 class="titulo">La cinefilia desde el centro del país</h1>
+        <h1 class="titulo" style="color:white !important ">La cinefilia desde el centro del país</h1>
         <br>
         
       </div>
@@ -213,11 +213,18 @@
         </div>
         <div class="col-lg-6 index-pp">
           
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-left:; ">
-            <p>Kunturñawi viene del idioma nativo kichwa significa: Kuntur=Cóndor y Ñawi=ojo; se crea en noviembre del 2006, ante la necesidad de difundir las obras 
-            cinematográficas y audiovisuales que se produce en Ecuador. La pandemia del Covid-19, no ha desfallecido nuestro ímpetu por seguir haciendo realidad 
-            descentralización del cine, abriendo espacios para su difusión, valoración de obras y autores, inspirar la formación de públicos en la región del centro del país: 
-            estudiantes de nivel medio y superior, comunidades indígenas, mercados y sectores vulnerables que no tienen acceso al cine como es su derecho. </p>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-left:;color:white ">
+            <p>Kunturñawi, es un proyecto que le apuesta al cine ecuatoriano, desde su creación en el año 2006, ha significado una 
+              propuesta de descentralización hacia el centro del país: ciudades y comunidades indígenas, que acceden a las películas
+              como un derecho en el contexto de la formación de públicos.</p>
+            <p>A lo largo de estas once ediciones, el Festival se ha constituido en la ventada de difusión de 455 films a una 
+              audiencia de ciento siete mil ciudadanos urbanos y rurales, que se han encontrado con el cine y se ha generado 
+              reflexiones y debates de la multiplicidad de miradas expuestas.</p>
+            <p>Estamos en la vigésimo primera edición y las miradas son diversas en 38 obras cinematográficas que serán expuestas 
+              del 5 al 12 de noviembre del 2022 en las Provincias de Chimborazo, Cotopaxi, Tungurahua y Bolívar.</p>
+            <p>Agradecer al equipo de Festival, a los jurados, a las empresas e instituciones que anualmente se comprometen a seguir
+              caminando junto a nosotros.</p>
+            <p>Pía Zurita <br> Presidenta Fundación Arte Nativo</p>
 
             {{-- <p>El Kunturñawi, es un festival de competencia en las categorías: largometraje documental y ficción, y cortometrajes: ficción, animación y documental; y la categoría cortos universitarios.  
             La décima edición por segundo año será presencial y Online y recorrerá las provincias de Bolívar, Tungurahua, Pastaza, Cotopaxi y Chimborazo, cómo única 
