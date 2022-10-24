@@ -46,7 +46,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -93,7 +93,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;" >
 
 
 
@@ -102,7 +102,7 @@
 
 
          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner" style="padding-top:10vh !important" >
+          <div class="carousel-inner" style="padding-top:10vh !important"  >
             <div class="carousel-item active" data-bs-interval="4000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  "> 
             </div>
         </div>
@@ -111,7 +111,7 @@
 
         <div class="container "  style=" text-align:center; margin-top:9vh">
             <a href="docs/agenda2022.pdf" download="Agenda_2022">
-                <button type="button" class="btn btn-outline-dark btn-lg"><b>DESCARGAR PROGRAMACIÓN</b></button>
+                <button type="button" class="btn btn-outline-light btn-lg"><b>DESCARGAR PROGRAMACIÓN</b></button>
             </a>
         </div>
 
@@ -158,7 +158,7 @@
 
 
             <div class="div" style="margin-top:5vh; margin-bottom:7vh">
-                <h1 class="titulo" style="text-align: center; color:#4c4c65 !important">AGENDA 2022</h1>
+                <h1 class="titulo" style="text-align: center; color:white !important">AGENDA 2022</h1>
             </div>
 
             <div id="accordion" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">

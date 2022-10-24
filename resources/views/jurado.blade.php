@@ -47,7 +47,6 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
                 margin: 0;
             }
 
@@ -103,7 +102,7 @@
 
         </style>
     </head>
-    <body>
+    <body  style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;  ">
 
 
 
@@ -111,33 +110,20 @@
         @include('components/navBar')
 
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner" style="padding-top:10vh !important" >
-            <div class="carousel-item active" data-bs-interval="4000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  "> 
+            <div class="carousel-inner" style="padding-top:10vh !important" >
+                <div class="carousel-item active" data-bs-interval="4000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  "> 
+                </div>
             </div>
         </div>
 
-          @include('components/redessociales')
-
-        <div class="container container2">
+          <!-- @include('components/redessociales') -->
+        <br><br>
+        <div class="container " >
             <br>
-            <br>
-            <br>
-
-            {{-- <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center ">
-              <h1 class="titulo">Jurado Calificador</h1><br><br>
-            </div>
-            <div class="row">
-              <div class="col-6">
-                <img src="img/jurado22/1.jpeg" class="card-img-top" alt="...">
-              </div>
-              <div class="col-6">
-                <img src="img/jurado22/2.jpeg" class="card-img-top" alt="...">
-              </div>
-            </div> --}}
-
+            
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
-                    <h1  class="titulo" style="color:#4c4c65 !important">JURADO CALIFICADOR 2022</h1 >
+                    <h1  class="titulo" style="color:white !important">JURADO CALIFICADOR 2022</h1 >
                     <br><br>
                 </div>
             </div>

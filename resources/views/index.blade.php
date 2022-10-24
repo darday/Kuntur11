@@ -101,12 +101,12 @@
             .carousel-indicators li {
                 width: 10px;
                 height: 10px;
-                border-radius: auto%;
+                /* border-radius: auto%; */
             }
 
             .container-fluid {
                 height: 90%;
-                width: auto%;
+                /* width: auto%; */
             }
 
             .carousel-inner img {
@@ -127,7 +127,7 @@
 
 
     </head>
-    <body class="animated fadeIn"  style="    background-size: cover; background-image: url('img/varias/fondo2.png') ;  ">
+    <body class="animated fadeIn"  style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;  ">
 
 
 
@@ -148,7 +148,7 @@
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner" style="" >
+          <div class="carousel-inner"style="padding-top:10vh !important" >
             <div class="carousel-item active" data-bs-interval="5000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  ">
                <!-- <div style="background-color:rgba(43, 39, 39, 0.397) ; width:auto%; height350pxp" > 250px </div>  -->
                     
@@ -158,9 +158,9 @@
             </div>
             <div class="carousel-item"  data-bs-interval="4000" style="background-image: url('img/carousel/PORTADA_INICIO.jpg') ">
         
-              <div style=" width:auto%; height350pxp" >
+              <!-- <div style=" width:auto%; height350pxp" >
             {{-- <div style=" width:auto%; height350pxp; backgro250pxcolor:rgba(43, 39, 39, 0.397)" >
-                </div> --}}
+                </div> --}} -->
               </div>
             </div>
           </div>
@@ -213,7 +213,7 @@
         </div>
         <div class="col-lg-6 index-pp">
           
-          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-left:;color:white ">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="color:white ">
             <p>Kunturñawi, es un proyecto que le apuesta al cine ecuatoriano, desde su creación en el año 2006, ha significado una 
               propuesta de descentralización hacia el centro del país: ciudades y comunidades indígenas, que acceden a las películas
               como un derecho en el contexto de la formación de públicos.</p>
@@ -352,7 +352,7 @@
               <div class="col-lg-6" style="padding-top: 0vh;padding-bottom:3vh">
                   @foreach($last as $last)
 
-                <div class=" text-center" style="">
+                <div class=" text-center">
                     <div id="mainwrapper">
                         <div class="card" style="width:100%;height: auto; ">
                                 <a href="{{url('/noticia/'.$last->id)}}" >
@@ -377,7 +377,7 @@
                         <div class="row g-0">
                           <div class="col-md-4">
                             <a href="{{url('/noticia/'.$noticias->id)}}" >
-                              <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="img-fluid rounded-start" style="width: auto%; height350pxto;" alt="...">
+                              <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="img-fluid rounded-start" style="width: auto; height:350px" alt="...">
 
                           </a>
                           </div>
@@ -399,9 +399,9 @@
               <br>
               <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-left" style="padding-top: 20px">
                 <div id="mainwrapper">
-                  <div class="card" style="width: auto%; height350pxto; ">
+                  <div class="card" style="width: auto; height:350pxto; ">
                     <a href="{{url('/noticia/'.$noticias->id)}}" >
-                        <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="card-img-top" style="width: auto%; height350pxto;" alt="...">
+                        <img src="{{ asset('storage/app/public').'/'. $noticias->Not_imagen}}" class="card-img-top" style="width: auto; height:350pxto;" alt="...">
                     </a>
 
                     <div class="card-body">
@@ -414,7 +414,7 @@
               </div>
               @endforeach --}}
                     <!--------------------------------------------------------->
-              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="margin-bottom: -20px; margin-top:">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="margin-bottom: -20px; ">
                 <a href="{{ url('/noticias') }} " style="text-decoration: none;"><h5 style="padding-top:2.5vh; ">Ver todas las noticias</h5></a> 
               </div>
             </div>

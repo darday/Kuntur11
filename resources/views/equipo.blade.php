@@ -35,7 +35,6 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
                 margin: 0;
             }
 
@@ -84,7 +83,7 @@
 
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;">
 
 
 
@@ -105,8 +104,8 @@
 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
 
-                    <h1  class="titulo" style="color:#4c4c65 !important">EQUIPO 2022</h1 >
-                    <hr style="height:1px !important"  color="#4c4c65">
+                    <h1  class="titulo" style="color:white !important">EQUIPO 2022</h1 >
+                    <hr style="height:1px !important"  color="white">
                     <br><br>
                 </div>
             </div>
@@ -153,8 +152,34 @@
                 </div>
             </div>
 
-
             <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <img src='img/equipo/kevin.png' class='' width="90%" />
+
+                                </div>
+
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Kevin Luna</b></h1>
+                                    <h1 class="titulo2">Director Ejecutivo</h1>
+                                    <p>Kevin Luna, es un cineasta egresado de la carrera de cine en la universidad de las artes en Guayaquil - Ecuador, también tiene una maestría en creación de guion audiovisual en la universidad de Rioja de España. Ha dirigido y producido cuatro cortometrajes estrenados en varios festivales internacionales y un guion de largometraje participando de el Guayaquil-Lab y en el Mafici-Lab. Actualmente forma parte del comité del festival de cine Kunturñawi. 
+                                        Sus intereses fundamentales consisten en retratar las tensiones raciales entre afroecuatorianos, indígenas y descendientes de europeos en Ecuador a través de sus películas.
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="card shadow p-3 mb-5 bg-white rounded">
                         <div class="card-body">
@@ -184,7 +209,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -345,7 +370,7 @@
 
                 </div>
             </div>
-
+<!-- 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -401,32 +426,9 @@
 
                 </div>
             </div>
+             -->
             
             
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="card shadow p-3 mb-5 bg-white rounded">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-                                    <img src='img/equipo/chriss.jpeg' class='' width="90%" />
-
-                                </div>
-
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
-                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Christian Dutan Bustamante</b></h1>
-                                    <h1 class="titulo2">Comunicador Digital</h1>
-                                    <p>Comunicador Digital, Conductor del programa Cinema Digital en la Fanpage Comunicadores Digitales, Editor y Productor Audiovisua
-                                    </p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
             
 
