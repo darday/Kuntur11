@@ -41,7 +41,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -88,7 +88,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;">
 
 
 
@@ -102,7 +102,15 @@
             </div>
         </div>
 
-        @include('components/redessociales')
+        <!-- @include('components/redessociales') -->
+
+        <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
+                    <br><br>
+                    <h1  class="titulo" style="color:white !important">NOTICIAS</h1 >
+                    
+                </div>
+            </div>
 
         <div class="container container2">
              <br>

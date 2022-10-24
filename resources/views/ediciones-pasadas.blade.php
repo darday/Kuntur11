@@ -35,7 +35,7 @@
               white-space: nowrap;
               overflow: hidden;
              }
-            .short { width: auto%; }
+            .short { width: auto; }
 
  
         </style>
@@ -47,8 +47,11 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
+            }
+            p{
+                color: white !important;
             }
 
             .full-height {
@@ -103,7 +106,7 @@
 
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;">
 
 
 
@@ -116,7 +119,7 @@
             </div>
         </div>
 
-          @include('components/redessociales')
+          <!-- @include('components/redessociales') -->
 
         <div class="container container2">
             <br>
@@ -125,7 +128,7 @@
 
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
-                    <h1  class="titulo" style="color:#4c4c65 !important">EDICIONES PASADAS</h1 >
+                    <h1  class="titulo" style="color:white !important">EDICIONES PASADAS</h1 >
                     <br><br>
                 </div>
             </div>
@@ -145,14 +148,14 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <div class="espacioimg"><img src="img/jurado22/2.jpeg" class="card-img-top" alt="..."></div> 
+                    <div class="espacioimg"><img src="img/festivales/8f.jpeg" class="card-img-top" alt="..."></div> 
                 </div>
             </div>
             
             <div class="row" style="padding-bottom: 2%">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
                     <h1 class="titulo22">2020/ 9na Edición, ganadores</h1>
-                    <p><b class="negrita22">Corto Universitario:</b> “Siete ocho” dirigido por Bryan Torres, estudiante de INCINE.<br>
+                    <p ><b class="negrita22">Corto Universitario:</b> “Siete ocho” dirigido por Bryan Torres, estudiante de INCINE.<br>
                         <b class="negrita22">Corto Ficción:</b> “Dulce Espera” de la directora Paula Llerena<br>
                         <b class="negrita22">Corto Animación:</b> “After Work” de Luis Usón y Andrés Aguilar.<br>                                                         
                         <b class="negrita22">Corto Documental:</b> “Un año, una hora, un deseo” de Daniel Yépez Brito.<br>                                       
@@ -162,7 +165,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <div class="espacioimg"><img src="img/jurado22/4.jpeg" class="card-img-top" alt="..."></div> 
+                    <div class="espacioimg"><img src="img/festivales/9f.jpg" class="card-img-top" alt="..."></div> 
                 </div>
             </div>
 
@@ -180,7 +183,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 text-center" style="padding-right:4%">
-                    <img src="img/jurado22/3.jpeg" class="card-img-top" alt="..."> 
+                    <img src="img/festivales/10f.jpg" class="card-img-top" alt="..."> 
                 </div> 
             </div>
             <br>

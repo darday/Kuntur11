@@ -22,7 +22,7 @@
                 <a class="nav-link menu navbar1 " href="{{ url('/') }}">Inicio</a>
                 </li>
                 
-                <li class="nav-item dropdown" id='dmenu'  >
+                <!-- <li class="nav-item dropdown" id='dmenu'  >
                     <a class="nav-link dropdown-toggle  menu navbar1" href="{{ url('/peliculas') }}" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Películas
                     </a>
@@ -37,20 +37,37 @@
                       <a class="dropdown-item menu navbar1" href="{{url('cortometrajeficcion')}}">Cortometraje Internacional</a>
                     
                     </div>
-                </li>
-                <li class="nav-item">
+                </li> -->
+                <!-- <li class="nav-item">
                 <a class="nav-link menu navbar1" href="{{ url('/talleres') }}">Talleres</a>
+                </li> -->
+                <li class="nav-item dropdown" id='dmenu'  >
+                    <a class="nav-link dropdown-toggle  menu navbar1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        El Festival
+                    </a>
+                    <div class="dropdown-menu navbar1" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item menu navbar1" href="{{ url('/el-festival') }}">Acerca del Festival</a>
+                        <a class="dropdown-item menu navbar1" href="{{ url('/jurado') }}">Jurado Calificador</a>
+                        <a class="dropdown-item menu navbar1" href="{{ url('/equipo') }}">Equipo Kunturñawi</a>
+                    
+                    </div>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link menu navbar1" href="{{ url('/programacion') }}">Programación</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link menu navbar1" href="{{ url('/noticias') }}">Noticias</a>
+                    <a class="nav-link menu navbar1" href="{{ url('/auspiciantes') }}">Auspiciantes</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link menu navbar1" href="{{ url('/ediciones-pasadas') }}">Ediciones Pasadas</a>
+                </li>
+                <!-- <li class="nav-item">
+                <a class="nav-link menu navbar1" href="{{ url('/noticias') }}">Noticias</a>
+                </li> -->
                 <li class="nav-item">
                 <a class="nav-link menu navbar1" href="{{ url('/gallery') }}">Galeria</a>
                 </li>
-                <li class="nav-item dropdown" id='dmenu'  >
+                <!-- <li class="nav-item dropdown" id='dmenu'  >
                     <a class="nav-link dropdown-toggle  menu navbar1" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       El Festival
                     </a>
@@ -60,41 +77,42 @@
                       <a class="dropdown-item menu navbar1" href="{{ url('/jurado') }}">Jurado</a>
                     
                     </div>
-                </li>
+                </li> -->
 
             </ul>
 
         </div>
+<!--         
         <div class="flex-center position-ref float-right ">
-                @if (Route::has('login'))
-                    <div class="right link buttonunion" style="padding: 0 0 px">
-                        @auth
-                            @if(Auth::user()->rol == 'admin')
-                                   <a href="{{ url('/admin') }}">  PERFIL ADMIN</a>
-                            @endif
+            @if (Route::has('login'))
+                <div class="right link buttonunion" style="padding: 0 0 px">
+                    @auth
+                        @if(Auth::user()->rol == 'admin')
+                                <a href="{{ url('/admin') }}">  PERFIL ADMIN</a>
+                        @endif
 
-                             @if(Auth::user()->rol == 'user')
-                                <a href="{{ url('/home') }}" style="color: black">
-                                    {{Auth::user()->name}}
-                                    <img src="{{ asset('storage/app/public').'/'. Auth::user()->img }} "  class='imgPerfil'>
+                            @if(Auth::user()->rol == 'user')
+                            <a href="{{ url('/home') }}" style="color: black">
+                                {{Auth::user()->name}}
+                                <img src="{{ asset('storage/app/public').'/'. Auth::user()->img }} "  class='imgPerfil'>
 
-                                </a>
+                            </a>
 
-                            @endif
+                        @endif
 
 
-                        @else
-                            <a href="{{ route('login') }}"><button type="button" class="btn btn-outline-light"><i class="fas fa-users"></i> INGRESAR</button></a>
+                    @else
+                        <a href="{{ route('login') }}"><button type="button" class="btn btn-outline-light"><i class="fas fa-users"></i> INGRESAR</button></a>
 
-                            {{-- @if (Route::has('register'))
+                        {{-- @if (Route::has('register'))
 
-                                <a href="{{ route('register') }}"><button type="button" class="btn btn-warning">REGISTRATE</button></a>
-                            @endif --}}
-                        @endauth
-                    </div>
-                @endif
+                            <a href="{{ route('register') }}"><button type="button" class="btn btn-warning">REGISTRATE</button></a>
+                        @endif --}}
+                    @endauth
+                </div>
+            @endif
 
-            </div>
+        </div> -->
     </div>
 </nav>
 </div>

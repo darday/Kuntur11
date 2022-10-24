@@ -107,13 +107,24 @@
             </div>
         </div>
 
-        @include('components/redessociales')
-
+        <!-- @include('components/redessociales') -->
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
+                    <h1  class="titulo" style="color:white !important">DESCARGA LA PROGRAMACION DANDO CLIC EN EL BOTÓN</h1 >
+                </div>
+            </div>
+            
         <div class="container "  style=" text-align:center; margin-top:9vh">
-            <a href="docs/agenda2022.pdf" download="Agenda_2022">
-                <button type="button" class="btn btn-outline-light btn-lg"><b>DESCARGAR PROGRAMACIÓN</b></button>
+            <a href="docs/agenda2022.pdf" style="text-decoration:none" download="Agenda_2022">
+                <button type="button" class="btn btn-outline-light btn-lg btn-block"><b>DESCARGAR PROGRAMACIÓN</b></button>
             </a>
         </div>
+
+        <br>
+        <br>
 
 
 
@@ -157,9 +168,9 @@
             @endforeach
 
 
-            <div class="div" style="margin-top:5vh; margin-bottom:7vh">
+            <!-- <div class="div" style="margin-top:5vh; margin-bottom:7vh">
                 <h1 class="titulo" style="text-align: center; color:white !important">AGENDA 2022</h1>
-            </div>
+            </div> -->
 
             <div id="accordion" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 @foreach($fecha as $fecha)

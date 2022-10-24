@@ -31,7 +31,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -78,7 +78,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('../img/varias/fondo2.png') ">
 
 
 
@@ -86,9 +86,7 @@
 
 
         <div class="container container2 animated fadeInUp ">
-             <br>
-             <br>
-             <br>
+             <br><br> <br><br>
              @if(Session::has('Mensaje'))
                         <div class="alert alert-success" role="alert">
                         {{Session::get('Mensaje')}}
@@ -97,7 +95,7 @@
 
 
              <div class="div text-center">
-                <h1 class="titnoti" style="text-align: left">{{$noticia->Not_Titulo}}</h1>
+                <h1 class="titnoti" style="text-align: left; color:white !important">{{$noticia->Not_Titulo}}</h1>
              </div>
              <hr>
             <div class="row ">
@@ -106,19 +104,19 @@
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center">
-                        <textarea  readonly class="form-control" id="exampleFormControlTextarea1" style="font-size:px; background-color:white; border-color:white;"  name="descripcion" rows="15" cols="80" required>{{ $noticia->Not_Descripcion }}</textarea>
+                        <textarea  readonly class="form-control" id="exampleFormControlTextarea1" style="font-size:px; background-color:white; border-color:white;"  name="descripcion" rows="21" cols="80" required>{{ $noticia->Not_Descripcion }}</textarea>
                     </div>
 
             </div>
-            <p>{{$noticia->Not_ImgDesc}}</p>
-            <p style="margin-top:-23px">{{$noticia->Not_Fecha}}</p>
+            <p style=" color:white !important">{{$noticia->Not_Fecha}}</p>
+            <!-- <p style="margin-top:-23px">{{$noticia->Not_Fecha}}</p> -->
             <br>
 
 
-                 <div style="text-align: left; padding-top:30px; padding-bottom:20px ">
+                 <div style="text-align: left; padding-top:10px; padding-bottom:20px ">
 
                     <a href="{{ url('/noticias') }}">
-                        <button type="button" class="btn btn-outline-dark">
+                        <button type="button" class="btn btn-outline-light btn-lg">
                             {{ __('VOLVER A NOTICIAS') }}
                         </button>
                     </a>

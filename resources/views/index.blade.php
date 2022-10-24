@@ -146,7 +146,7 @@
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <!-- <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
           </ol>
           <div class="carousel-inner"style="padding-top:10vh !important" >
             <div class="carousel-item active" data-bs-interval="5000"  style="    background-size: cover; background-image: url('img/carousel/WEB.png') ;  ">
@@ -156,13 +156,13 @@
             <div class="carousel-item" data-bs-interval="4000" style="background-image: url('img/logos/LOGOS.png') ">
               <!-- <div style=" width:auto%; height350pxp; backgro250pxcolor:rgba(43, 39, 39, 0.397)" >        </div>  -->
             </div>
-            <div class="carousel-item"  data-bs-interval="4000" style="background-image: url('img/carousel/PORTADA_INICIO.jpg') ">
+            <!-- <div class="carousel-item"  data-bs-interval="4000" style="background-image: url('img/carousel/PORTADA_INICIO.jpg') "> -->
         
               <!-- <div style=" width:auto%; height350pxp" >
             {{-- <div style=" width:auto%; height350pxp; backgro250pxcolor:rgba(43, 39, 39, 0.397)" >
                 </div> --}} -->
-              </div>
-            </div>
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -231,7 +231,7 @@
             ventana de acceder al cine de Ecuador.</p>
             <p>Paralelamente el Festival desarrolla actividades de formación cinematográfica, vinculando a las universidades de Cine: INCINE, UARTES, UDLA, con comunidades indígenas, para fortalecer al cine como una potencial herramienta para la revitalizar la memoria social, identidad, sensibilizarnos sobre nuestras realidades, fortalecer la estima y visionar mejores amaneceres. El Festival atiende las demandas sobre el acceso a la cultura y la legitimidad de los derechos culturales para ciudadanas/os.</p>
             <p>Son quince años que se han proyectado mas de 300 películas ecuatorianas de calidad, con temáticas diversas, como así es el país, con la particularidad de contar con la participación en los foros de los directores, realizadores y actores que han contrastado con el publico sus obras.</p> --}}
-            <button type="button" class="btn btn-link" ><a href="{{url('/festival-kuntur')}}">Leer más</a> </button>
+            <!-- <button type="button" class="btn btn-link" ><a href="{{url('/festival-kuntur')}}">Leer más</a> </button> -->
 
           </div>
         </div>

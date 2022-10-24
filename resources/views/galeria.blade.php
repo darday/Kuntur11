@@ -33,7 +33,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -80,7 +80,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;">
 
 
 
@@ -95,7 +95,7 @@
         </div>
 
 
-        @include('components/redessociales')
+        <!-- @include('components/redessociales') -->
 
         <div class="container">
              <br>
@@ -121,6 +121,9 @@
 
             <!--hasta Aqui-->
         </div>
+        <br><br>
+        <br><br>
+      
 
           @include('components/footer')
         <script src="{{ asset('css/js/jquery/jquery-2.2.4.min.js') }}"></script>

@@ -38,7 +38,7 @@
                 color: #636b6f;
                 font-family: 'Helvetica Neue LT Pro 300', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -85,7 +85,7 @@
             }
         </style>
     </head>
-    <body>
+    <body  style=" background-size: cover; background-image: url('../img/varias/fondo2.png') ;  ">
 
 
 
@@ -93,13 +93,13 @@
 
 
         <div class="container ">
-            <br>
-            <br>
+            <br><br>
+            <br><br>
             <br>
 
             <div class="card" style="margin-bottom: 1vh">
                 <div class="card-header">
-                    <h1 class="titulo" style="font-size: 2.3em; margin-bottom:-10px">{{$film->film_Categoria}}</h1>
+                    <h1 class="titulo" style="font-size: 2.3em; margin-bottom:-10px; color:#36294a !important">{{$film->film_Categoria}}</h1>
                 </div>
                 <div class="card-body" style="background-color: #4d4d4d">
                     @if(Session::has('Mensaje'))
@@ -253,7 +253,7 @@
 
             <div class="row">
                 <div class="col-12 ">
-                    <a href="{{ url('/peliculas') }}"><button type="button" class="btn btn-outline-dark btn-lg">VOLVER A CATEGORÍAS</button></a>
+                    <a href="{{ url('/peliculas') }}"><button type="button" class="btn btn-outline-light btn-lg">VER TODAS LAS PELÍCULAS</button></a>
                 </div>
             </div>
 

@@ -46,7 +46,7 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
             }
 
@@ -102,7 +102,7 @@
             /*  */
         </style>
     </head>
-    <body>
+    <body style=" background-size: cover; background-image: url('img/varias/fondo2.png') ;  ">
 
 
 
@@ -121,55 +121,55 @@
 
         </div> --}}
 
-        @include('components/redessociales')
+        <!-- @include('components/redessociales') -->
 
 
         <div class="container">
 
 
             <div class=" text-center" style="margin-top: 7vh; align-items:center; margin-bottom:10vh;">
-                <h1 class="titulo animate__animated  animate__fadeInRight">CATEGORÍAS</h1>
-                <div class="row text-center justify-content-center animate__animated  animate__fadeInLeft" style="align-content: center; ">
+                <h1 class="titulo animate__animated  animate__fadeInRight">PELÍCULAS EN COMPETENCIA</h1>
+                <!-- <div class="row text-center justify-content-center animate__animated  animate__fadeInLeft" style="align-content: center; ">
                     {{-- <div class="col-md-2">
-                        <a href="{{ url('/wawas') }}" style="text-decoration:none" ><h1 class="titulo2 zoom" >Wawas al Cine</h1></a>
+                        <a href="{{ url('/wawas') }}" style="text-decoration:none;" ><h1 class="titulo2 zoom" style="color:white !important" >Wawas al Cine</h1></a>
 
                     </div>
                     <div class="col-md-2">
-                        <a href="{{ url('/canelos') }}" style="text-decoration:none"><h1 class="titulo2 zoom" >Proyecto Union Base Pastaza</h1></a>
+                        <a href="{{ url('/canelos') }}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important" >Proyecto Union Base Pastaza</h1></a>
 
                     </div> --}}
                     <div class="col-md-2">
-                        <a href="{{ url('/largometrajeficcion') }}"  style="text-decoration:none"><h1 class="titulo2 zoom">Largometrajes Ficción</h1></a>
+                        <a href="{{ url('/largometrajeficcion') }}"  style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Largometrajes Ficción</h1></a>
 
                     </div>
                     <div class="col-md-2">
-                        <a href="{{url('largometrajedocumental')}}" style="text-decoration:none"><h1 class="titulo2 zoom">Largometrajes Documental</h1></a>
+                        <a href="{{url('largometrajedocumental')}}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Largometrajes Documental</h1></a>
 
                     </div>
                     <div class="col-md-2">
-                        <a href="{{url('cortometrajeficcion')}}" style="text-decoration:none"><h1 class="titulo2 zoom">Cortometrajes Ficción</h1></a>
+                        <a href="{{url('cortometrajeficcion')}}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Cortometrajes Ficción</h1></a>
 
                     </div>
                     <div class="col-md-2">
-                        <a href="{{url('cortometrajedocumental')}}"  style="text-decoration:none"><h1 class="titulo2 zoom">Cortometrajes Documental</h1></a>
-
-                    </div>
-                    <div class="col-md-2">
-                        
-                        <a href="{{url('cortometrajeanimado')}}" style="text-decoration:none"><h1 class="titulo2 zoom">Cortometrajes Animado</h1></a>
+                        <a href="{{url('cortometrajedocumental')}}"  style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Cortometrajes Documental</h1></a>
 
                     </div>
                     <div class="col-md-2">
                         
-                        <a href="{{url('cortometrajeuniversitario')}}" style="text-decoration:none"><h1 class="titulo2 zoom">Cortometrajes Universitario</h1></a>
+                        <a href="{{url('cortometrajeanimado')}}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Cortometrajes Animado</h1></a>
+
+                    </div>
+                    <div class="col-md-2">
+                        
+                        <a href="{{url('cortometrajeuniversitario')}}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Cortometrajes Universitario</h1></a>
 
                     </div>
                     <div class="col-md-2">
                         <br>
-                        <a href="{{url('cortometrajeuniversitario')}}" style="text-decoration:none"><h1 class="titulo2 zoom">Cortometraje Internacional</h1></a>
+                        <a href="{{url('cortometrajeuniversitario')}}" style="text-decoration:none;"><h1 class="titulo2 zoom" style="color:white !important">Cortometraje Internacional</h1></a>
 
                     </div>
-                </div>
+                </div> -->
                 <hr style="height:1px; width:30%;margin-left:35% "  color="#636b6f">
 
 
@@ -192,7 +192,7 @@
                             </div>
 
                             <div class="card-body">
-                                <h5 class="card-title titulo2" type="hidden"><a style="text-decoration:none; color:#4c4c65" href="{{url('/pelicula/'.$film->id)}}"> <b>{{$film->film_Titulo}}</a></h5>
+                                <h5 class="card-title titulo2" type="hidden"><a style="text-decoration:none; color:white" href="{{url('/pelicula/'.$film->id)}}"> <b>{{$film->film_Titulo}}</a></h5>
                                 <h1 class="card-subtitle mb-2 text-muted titulo2"> </b></h1>
                              </div>
                         </div>
@@ -237,6 +237,11 @@
 
             <!--hasta Aqui-->
         </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
         @include('components/footer')
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
