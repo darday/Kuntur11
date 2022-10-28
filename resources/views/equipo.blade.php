@@ -114,7 +114,6 @@
         </div>
 
         <div class="container ">
-
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="card shadow p-3 mb-5 bg-white rounded">
@@ -142,10 +141,8 @@
                                        Festival Infantil-Juvenil Wawas al Cine (2014-2021 ); Festival de Cine Kunturñawi Internacional en Francia (2007), Alemania (2010), 
                                        Colombia (2011), Canadá (2017), España (2019).
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
 
@@ -159,22 +156,42 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                     <img src='img/equipo/kevin.png' class='' width="90%" />
-
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                                     <h1 class="titulo2" style="font-size: 2.0em"><b>Kevin Luna</b></h1>
                                     <h1 class="titulo2">Director Ejecutivo</h1>
                                     <p>Kevin Luna, es un cineasta egresado de la carrera de cine en la universidad de las artes en Guayaquil - Ecuador, también tiene una maestría en creación de guion audiovisual en la universidad de Rioja de España. Ha dirigido y producido cuatro cortometrajes estrenados en varios festivales internacionales y un guion de largometraje participando de el Guayaquil-Lab y en el Mafici-Lab. Actualmente forma parte del comité del festival de cine Kunturñawi. 
                                         Sus intereses fundamentales consisten en retratar las tensiones raciales entre afroecuatorianos, indígenas y descendientes de europeos en Ecuador a través de sus películas.
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <img src='img/equipo/rafael.jpeg' class='' width="90%" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Rafael Plaza</b></h1>
+                                    <h1 class="titulo2">Presidente de Jurados</h1>
+                                    <p>Realizador cinematográfico, escritor sobre cine y gestor cultural. Ha sido acreditado como 
+                                        prensa en los festivales de Mar del Plata, Miami, Locarno, Karlovy Vary, Venecia, San 
+                                        Sebastián, Londres, Nashville, IDFA, Tokio, Torino, Rotterdam, Goteborg, Berlín, Vancouver 
+                                        y New York. Seleccionado como parte del Talents del Festival BAFICI 2021. Además de ser 
+                                        jurado de la sección principal de largometrajes en el Festival Kunturñawi 2021, y ser parte 
+                                        del jurado a la Mejor Ópera Prima Latinoamericana en el Festival de Mar del Plata 2021.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -218,9 +235,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                     <img src='img/equipo/nati2.jpg' class='' width="90%" />
-
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                                     <h1 class="titulo2" style="font-size: 2.0em"><b>Natalia Guashpa Bastidas</b></h1>
                                     <h1 class="titulo2">CORDINACIÓN PROVINCIAS</h1>
@@ -230,26 +245,45 @@
                                            Ecuador. Actualmente desempeña la labor como miembro del Comité Organizador del Festival
                                            de Cine Ecuatoriano Kunturñawi.
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
 
-<div class="row">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <img src='img/equipo/vivi.png' class='' width="90%" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Vivi Cuenca</b></h1>
+                                    <h1 class="titulo2">ILUSTRADORA</h1>
+                                    <p>Ilustradora y Diseñadora Gráfica Riobambeña. Le encanta la ilustración infantil y su estilo 
+                                        está inspirado en la cultura andina, el anime, videojuegos, lo tierno y lo femenino. 
+                                        Trabaja en su marca personal “Viviss Qnk” y maneja su tienda online con papelería cute, 
+                                        colecciones ilustradas, fanart y retratos digitales. También ha participado como expositora 
+                                        de su trabajo en eventos de diferentes ciudades del país.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    	    <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="card shadow p-3 mb-5 bg-white rounded">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                     <img src='img/equipo/dario.jpeg' class='' width="90%" />
-
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                                     <h1 class="titulo2" style="font-size: 2.0em"><b>Darío Janeta</b></h1>
                                     <h1 class="titulo2">DESARROLLADOR WEB</h1>
@@ -262,13 +296,10 @@
                                         el cual se realizó en la Escuela Superior Politécnica de Chimborazo a finales del mes de Octubre del 2019.Actualmente 
                                         administra la aplicación web del festival Kunturñawi y Wawas al Cine.
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -315,9 +346,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                     <img src='img/equipo/galo_vasconez.jpg' class='' width="90%" />
-
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                                     <h1 class="titulo2" style="font-size: 2.0em"><b>Galo Vásconez</b></h1>
                                     <h1 class="titulo2">PRODUCTOR</h1>
@@ -329,13 +358,31 @@
                                         Ha trabajado como docente universitario dictando cátedras de comunicación y cine. Al momento trabaja como Director de Comunicación en la Gobernación
                                         de Chimborazo.
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <img src='img/equipo/ivo.png' class='' width="90%" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Ivonne Carrera</b></h1>
+                                    <h1 class="titulo2">ASESORA</h1>
+                                    <p>
+                                        Cinefila, fundadora del Festival Kunturñaui.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -346,9 +393,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
                                     <img src='img/equipo/ana_paula.jpg' class='' width="90%" />
-
                                 </div>
-
                                 <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
                                     <h1 class="titulo2" style="font-size: 2.0em"><b>Ana Paula Amado</b></h1>
                                     <h1 class="titulo2">ASESORA</h1>
@@ -361,13 +406,31 @@
                                          UNACH y coordinadora de la Alianza Francesa sede de Riobamba. Participó en Francia y en Ecuador en varios talleres
                                          de teatro, de danza y de cine. Ha colaborado en varios eventos culturales en diferentes países.
                                     </p>
-
                                 </div>
                             </div>
-
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <img src='img/equipo/martha.jpeg' class='' width="90%" />
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8">
+                                    <h1 class="titulo2" style="font-size: 2.0em"><b>Martha Susana Bravo Aucancela</b></h1>
+                                    <h1 class="titulo2">ASESORA</h1>
+                                    <p>Licenciada en Ciencias de la Información y Comunicación Social, Edu-comunicadora, Máster en Comunicación Digital.
+                                        Guionista de radio, cine y televisión. Escritora, Narradora, Especialista en análisis de contenidos de comunicación.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 <!-- 

@@ -66,14 +66,22 @@
                             <div class="col-md-12">
                                 <select class="form-control" name="film_Categoria">
                                     <option selected value="{{$film->film_Categoria}}">{{$film->film_Categoria}}</option>
-                                    <option value="Largometraje Ficción">Largometraje Ficción</option>
-                                    <option value="Largometraje Documental">Largometraje Documental</option>
+                                    <option value="Corto">Corto</option>
+                                    <option value="Corto Documental">Corto Documental</option>
+                                    <option value="Corto Documental / Universitario">Corto Documental / Universitario</option>
+                                    <option value="Corto Ficción / Universitaria">Corto Ficción / Universitaria</option>
+                                    <option value="Corto Internacional">Corto Internacional</option>
+                                    <option value="Corto Rural">Corto Rural</option>
+                                    <option value="Corto Rural e Indíngena">Corto Rural e Indíngena</option>
                                     <option value="Cortometraje Ficción">Cortometraje Ficción</option>
-                                    <option value="Cortometraje Documental">Cortometraje Documental</option>
                                     <option value="Cortometraje Animado">Cortometraje Animado</option>
+                                    <option value="Cortometraje Documental">Cortometraje Documental</option>
                                     <option value="Cortometraje Universitario">Cortometraje Universitario</option>
+                                    <option value="Documental">Documental</option>
+                                    <option value="Largometraje Documental">Largometraje Documental</option>
+                                    <option value="Largometraje Ficción">Largometraje Ficción</option>
+                                    <option value="Proyecto Canelos">Proyecto Canelos</option>
                                     <option value="Wawas al Cine">Wawas al Cine</option>
-
                                 </select>
                             </div>
                         </div>

@@ -220,7 +220,7 @@
             <p>A lo largo de estas once ediciones, el Festival se ha constituido en la ventada de difusión de 455 films a una 
               audiencia de ciento siete mil ciudadanos urbanos y rurales, que se han encontrado con el cine y se ha generado 
               reflexiones y debates de la multiplicidad de miradas expuestas.</p>
-            <p>Estamos en la vigésimo primera edición y las miradas son diversas en 38 obras cinematográficas que serán expuestas 
+            <p>Estamos en la décima primera edición y las miradas son diversas en 38 obras cinematográficas que serán expuestas 
               del 5 al 12 de noviembre del 2022 en las Provincias de Chimborazo, Cotopaxi, Tungurahua y Bolívar.</p>
             <p>Agradecer al equipo de Festival, a los jurados, a las empresas e instituciones que anualmente se comprometen a seguir
               caminando junto a nosotros.</p>
@@ -442,7 +442,7 @@
                 </div
 
 
-                <!-- <div class="col-12 col-sm-12 col-md-12 col-xl-12">  
+                 <div class="col-12 col-sm-12 col-md-12 col-xl-12">  </div>
                       <!-- <img src="img/logos/auspiciantes.jpg" class="responsive">  -->
 
                     <!-- <div class="slider">

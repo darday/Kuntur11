@@ -158,7 +158,7 @@
           públicos menos favorecidos. A lo largo de estas diez ediciones se ha constituído en la ventada de
           difusión de 417 films a una audiencia de mas de cien mil ciudadanos urbanos y rurales.</p>
 
-        <p style=" color:#fff !important">Estamos en la vigésimo primera edición y la miradas son diversas en 37 obras cinematográficas que
+        <p style=" color:#fff !important">Estamos en la décima primera edición y las miradas son diversas en 37 obras cinematográficas que
           serán expuestas del 5 al 12 de noviembre del 2022 en las Provincias de Chimborazo, Cotopaxi, Tungurahua
           y Bolívar.
         </p>
