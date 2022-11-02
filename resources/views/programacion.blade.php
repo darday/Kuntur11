@@ -111,18 +111,19 @@
             <br>
             <br>
             <br>
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center" style="padding-right:4%">
-                    <h1  class="titulo" style="color:white !important">DESCARGA LA PROGRAMACION DANDO CLIC EN EL BOTÓN</h1 >
+                    <h1  class="titulo" style="color:white !important">DESCARGA LA PROGRAMACION</h1 >
                 </div>
             </div>
-            
-        <div class="container "  style=" text-align:center; margin-top:9vh">
-            <a href="docs/agenda2022.pdf" style="text-decoration:none" download="Agenda_2022">
-                <button type="button" class="btn btn-outline-light btn-lg btn-block"><b>DESCARGAR PROGRAMACIÓN</b></button>
-            </a>
+                
+            <div class="container "  style=" text-align:center; margin-top:9vh">
+                <a href="docs/agenda2022.pdf" style="text-decoration:none" download="Agenda_2022">
+                    <button type="button" class="btn btn-outline-light btn-lg btn-block"><b>DESCARGAR PROGRAMACIÓN</b></button>
+                </a>
+            </div>
         </div>
-
         <br>
         <br>
 
